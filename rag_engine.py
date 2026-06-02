@@ -62,7 +62,7 @@ def get_answer(query, selected_doc_name=None):
         retriever = vectorstore.as_retriever(search_kwargs=search_kwargs)
         
         # Use state-of-the-art inference model
-        llm = ChatOpenAI(model="gpt-4o", temperature=0)
+        llm = ChatOpenAI(model="gpt-5.5", temperature=0)
         
         system_prompt = (
             "You are a helpful and intelligent assistant for question-answering tasks. "

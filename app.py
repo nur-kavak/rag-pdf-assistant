@@ -5,7 +5,7 @@ from rag_engine import save_uploaded_file, process_document, get_answer
 st.set_page_config(page_title="RAG Document Assistant", page_icon="📚", layout="wide")
 
 st.title("📚 Chat with your Documents (RAG)")
-st.markdown("Upload a PDF and ask questions about its content. Powered by **GPT-4o** and **ChromaDB**.")
+st.markdown("Upload a PDF and ask questions about its content. Powered by **GPT-5.5** and **ChromaDB**.")
 
 # Sidebar for configuration and upload
 with st.sidebar:

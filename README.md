@@ -1,7 +1,7 @@
 # RAG Document Assistant
 
 A "Chat with your Data" web application built with Streamlit, LangChain, and ChromaDB. 
-This application uses Retrieval-Augmented Generation (RAG) to let you upload PDF documents and ask questions about their content. It uses OpenAI's embeddings and GPT-4o models to provide highly accurate, context-aware answers.
+This application uses Retrieval-Augmented Generation (RAG) to let you upload PDF documents and ask questions about their content. It uses OpenAI's embeddings and GPT-5.5 models to provide highly accurate, context-aware answers.
 
 ## Features
 - **PDF Upload:** Automatically extracts text and chunks it for processing.
