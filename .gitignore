@@ -1,0 +1,20 @@
+# Environment variables
+.env
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Vector Database and Documents
+chroma_db/
+docs/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit config (optional)
+.streamlit/
